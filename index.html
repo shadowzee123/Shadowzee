@@ -1,1 +1,40 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Atbash Cipher (A ↔ Z)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f0f4f8;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 1em;
+    }
+    .output {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e2e8f0;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Atbash Cipher (A ↔ Z)</h1>
+
+  <label for="message">Enter Message:</label>
+  <textarea id="message" rows="4" placeholder="Type something..."></textarea>
+
+  <div class="output">
+    <h3>Hashed Output:</h3>
+    <p id="result"></p>
+  </div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="cipher.js"></script>
+</body>
+</html>
